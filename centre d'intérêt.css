@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(9, 9, 57);
+}
+nav ul{
+    list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+
+}
+nav{
+    top: 0;
+    width: 100%;
+    background: rgba(255,255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: #000;
+    padding: 1em;
+    z-index: 10;
+}
+nav a {
+    color:  rgb(3, 106, 150);
+    text-decoration: none;
+}
+nav a:hover{
+    color: azure;
+    transition: color 0.5s;
+}  
+section{
+    color: azure;
+}
+ul{
+    display: flex;
+    gap: 4em;
+    margin: 10px;
+    word-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-size: 60px;
+    color: rgb(3, 106, 150);
+}
+p{
+    font-size: 20px;
+}

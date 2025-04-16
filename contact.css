@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(9, 9, 57);
+}
+nav ul{
+    list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+
+}
+nav{
+  top: 0;
+  width: 100%;
+  background: rgba(255,255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: #000;
+  padding: 1em;
+  z-index: 10;
+}
+nav a {
+  color:  rgb(3, 106, 150);
+  text-decoration: none;
+}
+nav a:hover{
+  color: azure;
+  transition: color 0.5s;
+}  
+section{
+  color: azure;
+}
+h1{
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(3, 106, 150);
+}
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background 0.3s;
+}
+  
+.social-icons a:hover {
+  background-color: #0b0a35;
+}
+  
+  .social-icons .facebook { background-color: #3b5998; }
+  .social-icons .twitter { background-color: #1da1f2; }
+  .social-icons .instagram { background-color: #e1306c; }
+  .social-icons  .whatsapp{ background-color: forestgreen;}
+  .social-icons  .linkedin{ background-color: rgb(36, 68, 232);}
+  .social-icons  .github{ background-color: rgb(9, 10, 9);}
+
+  
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  border-radius: 10px;
+}
+  
+.contact-item {
+  display: flex;
+  font-size: 16px;
+  color: #333;
+  background-color: #0f172a;
+  color: white;
+  padding: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+
+}
+.contact-item i {
+  color: #007bff;
+  font-size: 15px;
+}
+  
